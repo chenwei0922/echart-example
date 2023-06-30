@@ -1,3 +1,7 @@
 {
-  "cssrem.rootFontSize": 80
+  "cssrem.rootFontSize": 80,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }

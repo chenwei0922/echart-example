@@ -1,3 +1,5 @@
+# [图表实例](https://chenwei0922.github.io/echart-example/)
+
 # [`Echart`配置说明](https://echarts.apache.org/zh/option.html#title)
 - `title` => 标题组件
 - `tooltip` => 图表的提示框组件

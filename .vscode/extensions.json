@@ -1,5 +1,7 @@
 {
   "recommendations": [
-    "cipchk.cssrem"
+    "cipchk.cssrem",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
   ]
 }
