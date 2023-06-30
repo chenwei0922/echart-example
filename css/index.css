@@ -185,6 +185,9 @@ header .showTime {
 .mainbox .map {
   position: relative;
   height: 10.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .mainbox .map .chart {
   position: absolute;
@@ -198,9 +201,6 @@ header .showTime {
 .mainbox .map .map2,
 .mainbox .map .map3 {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 6.475rem;
   height: 6.475rem;
   background: url(../images/map.png) no-repeat;
@@ -227,18 +227,18 @@ header .showTime {
 
 @keyframes rotate {
   from {
-    transform: translate(-50%, -50%) rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
-    transform: translate(-50%, -50%) rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 @keyframes rotate1 {
   from {
-    transform: translate(-50%, -50%) rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
-    transform: translate(-50%, -50%) rotate(-360deg);
+    transform: rotate(-360deg);
   }
 }
 @media screen and (max-width: 1024px) {

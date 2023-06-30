@@ -211,6 +211,10 @@ header {
   .map {
     position: relative;
     height: 10.125rem;
+    // background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .chart {
       position: absolute;
@@ -226,9 +230,9 @@ header {
     .map2,
     .map3 {
       position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      // top: 50%;
+      // left: 50%;
+      // transform: translate(-50%, -50%);
       width: 6.475rem;
       height: 6.475rem;
       background: url(../images/map.png) no-repeat;
@@ -259,21 +263,21 @@ header {
 
 @keyframes rotate {
   from {
-    transform: translate(-50%, -50%) rotate(0deg);
+    transform: rotate(0deg);
   }
 
   to {
-    transform: translate(-50%, -50%) rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes rotate1 {
   from {
-    transform: translate(-50%, -50%) rotate(0deg);
+    transform: rotate(0deg);
   }
 
   to {
-    transform: translate(-50%, -50%) rotate(-360deg);
+    transform: rotate(-360deg);
   }
 }
 @media screen and (max-width: 1024px) {
