@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "lint": "eslint ts --ext .js,.jsx,.ts,.tsx,.md,.json",
+    "lint": "eslint ts js --ext .js,.jsx,.ts,.tsx,.md,.json",
     "lint:fix": "pnpm run lint --fix",
     "build": "webpack"
   },
@@ -14,7 +14,8 @@
   "author": "",
   "license": "ISC",
   "lint-staged": {
-    "ts/*.{js,ts,jsx,tsx,json}": "eslint --fix"
+    "ts/*.{js,ts,jsx,tsx,json}": "eslint --fix",
+    "js/*.{js,ts,jsx,tsx,json}": "eslint --fix"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.60.1",

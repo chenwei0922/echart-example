@@ -1,5 +1,5 @@
 const path = require('path')
-const outputDir = path.resolve(__dirname, 'js')
+const outputDir = path.resolve(__dirname, 'dist')
 const inputDir = path.resolve(__dirname, 'ts')
 
 module.exports = {
